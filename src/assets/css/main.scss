@@ -1,0 +1,58 @@
+$default_family: Arial, sans-serif;
+
+body {
+    min-width: 320px;
+    position: relative;
+    font-family: $default_family !important;
+    font-weight: normal;
+    opacity: 1;
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.page-wrapper {
+    padding: 50px 0;
+    flex-grow: 1;
+}
+
+.btn {
+    display: block;
+    max-width: 200px;
+    width: 100%;
+}
+
+.card {
+    padding: 20px 15px;
+}
+
+.form-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    &.invalid {
+        border-color: #dc3545;
+    }
+}
+
+.error-message {
+    text-align: left;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 0.8rem;
+    color: #dc3545;
+}
+
+@media (max-width: 767px) {
+    .page-title {
+        font-size: 28px;
+    }
+}

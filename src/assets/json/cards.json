@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Card 1",
+        "text": "Lorem ipsum dolor sit amet.",
+        "id": 1
+    },
+    {
+        "title": "Card 2",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quas?",
+        "id": 2
+    }
+]
